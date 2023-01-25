@@ -18,26 +18,25 @@ main {
 
 div#imagem img{
         position: absolute;
-        width:28vw;
-        height: 282px;
+        width:30vw;
+        height: 69vh;
         text-align: center;
         top: 50vh;
-        left: 90vw;
-        transform: translate(-20vw,-29.8vh);
+        left: 84.2vw;
+        transform: translate(-20vw,-34.3vh);
      
 }
 
 div#formulario {
     position: absolute;
     background-color: white;
-    width: 50vw;
+    width: 48vw;
     height: 282px;
-    top: 50vh;
-    left: 50vw;
+    top: 50%;
+    left: 50%;
     border-radius: 10px 0px 0px 10px;
-    border: 1px 0px 1px 1px solid #E099D4;
     box-shadow: 0px 0px 1px 0px #E099D4;
-    transform: translate(-60%,-50%);
+    transform: translate(-60vh, -40vh);
 
 }
 form > input , label {
