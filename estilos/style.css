@@ -7,31 +7,95 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html{
-    background-color: bisque;
-    width: 98vw;
+html, body{
+    background-color: #943A84;
+    width: 100vw;
+    height: 100vh;
 }
-section#login {
-    position: absolute;
-}
-div#imagem{
+main {
     position: relative;
+}
 
-
+div#imagem img{
+        position: absolute;
+        width:28vw;
+        height: 282px;
+        text-align: center;
+        top: 50vh;
+        left: 90vw;
+        transform: translate(-20vw,-29.8vh);
+     
 }
 
 div#formulario {
-    width: 50vw;
-    position: relative;
+    position: absolute;
     background-color: white;
-    top: 50%;
-    left: 30%;
-    border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px 1px black;
-    transform: translate(0, 75%);
+    width: 50vw;
+    height: 282px;
+    top: 50vh;
+    left: 50vw;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px 0px 1px 1px solid #E099D4;
+    box-shadow: 0px 0px 1px 0px #E099D4;
+    transform: translate(-60%,-50%);
 
+}
+form > input , label {
+    margin: 0px;
+    
 }
 div#formulario h1, p {
     padding: 10px;
+    background-color:#5D9491;
+    color: whitesmoke;
+
+}
+div#formulario h1 {
+    border-radius: 9px 0px 0px 0px;
+    text-align: center;
+}
+div#formulario p {
+    margin-top: -1px;
+    margin-bottom: 5px;
+    text-align: justify;
+    text-indent: 10px;
+}
+input#entrar {
+    margin: 5px;
+    padding: 5px;
+    background-color: #65E0D9 ;
+    border: 2px solid #E099D4;
+    color: white;
+    border-radius: 5px;
+}
+
+span#login ,#senha{
+    background-color: #65E0D9;
+    padding: 3px;
+    border: 2px solid #E099D4;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    border-radius: 4px;
+    color: white;
+    
+    
+    
+}
+input.formul{
+    background-color:#65E0D9;
+    border: 2px solid #E099D4;
+    border-radius: 7px;
+}
+
+input.formul:hover {
+    background-color: #943A84;
+    border: 1px solid white;
+    
+}
+form > a {
+    text-decoration: none;
+    background-color:#65E0D9 ;
+    border:2px solid #E099D4 ;
+    color: white;
+    border-radius: 4px;
 }
