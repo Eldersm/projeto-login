@@ -8,15 +8,17 @@
     }
     section#login {
         width: 70vw;
+        height: 350px;
     }
     div#imagem {
-        float: left;
+        float: left; /*posiciona a imagem a esquerda possivelmente com grid ou flexbox substitua isso */
         width: 30%;
         height: 100%;
     }
     div#formulario {
         float: right;
-        width: 70%;}
+        width: 70%;
+    }
 
     }
 
@@ -27,6 +29,7 @@
     }
     section#login {
         width: 900px;
+        height: 400px;
     }
     div#imagem {
         float: right;
