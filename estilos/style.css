@@ -57,35 +57,25 @@ div#formulario h1 {
     text-align: center;
 }
 div#formulario p {
+    font-size: 0.8em;
     margin-top: -1px;
     margin-bottom: 5px;
     text-align: justify;
     text-indent: 10px;
 }
-input#entrar {
-    margin: 5px;
-    padding: 5px;
-    background-color: #65E0D9 ;
-    border: 2px solid #E099D4;
-    color: white;
-    border-radius: 5px;
-}
+
 
 span#login ,#senha{
-    background-color: #65E0D9;
-    padding: 3px;
-    border: 2px solid #E099D4;
-    margin-left: 3px;
-    margin-bottom: 2px;
-    border-radius: 4px;
     color: white;
     
     
     
 }
-input.formul{
+form > div.campo{
+    display: block;
+    width: 100%;
+    height: 35px;
     background-color:#65E0D9;
-    border: 2px solid #E099D4;
     border-radius: 7px;
 }
 
@@ -94,10 +84,37 @@ input.formul:hover {
     border: 1px solid white;
     
 }
-form > a {
-    text-decoration: none;
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
     background-color:#65E0D9 ;
-    border:2px solid #E099D4 ;
+    color: #612c58;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    
+} 
+form > input[type=submit]:hover {
+    background-color:#33706d ;
     color: white;
+}
+
+form a#botao {
+    display: block;
+    text-align: center;
+    background-color:white;
+    color: black;
+    font-size: 1em;
+    padding: 10px;
     border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid #65E0D9;
+
+
+}
+form a#botao:hover {
+    background-color: #31504e;
+    color: whitesmoke;
 }
